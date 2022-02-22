@@ -43,9 +43,9 @@ jobs:
       working-directory: ./pokemon-app
       run: npm i --package-lock-only
 
-    - name: npm install
+    - name: npm ci
       working-directory: ./pokemon-app
-      run: npm install -g
+      run: npm ci
 
     - name: npm build
       working-directory: ./pokemon-app
