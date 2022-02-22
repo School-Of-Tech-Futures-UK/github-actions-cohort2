@@ -45,7 +45,7 @@ jobs:
 
     - name: npm install
       working-directory: ./pokemon-app
-      run: npm install npm -g
+      run: npm install -g
 
     - name: npm build
       working-directory: ./pokemon-app
